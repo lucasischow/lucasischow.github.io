@@ -5,7 +5,7 @@ url: "https://lucasischow.github.io"  # Replace with your GitHub Pages URL
 baseurl: "lucasischow.github.io"  # Use "/repository-name" for project pages
 
 # Theme (optional, you can use other themes or none)
-theme: minima
+# theme: minima
 
 # Markdown Processor
 markdown: kramdown
@@ -37,7 +37,7 @@ keep_files:
   - _next  # Ensures _next folder is copied as-is
 
 # GitHub Pages settings (optional)
-remote_theme: "pages-themes/minima@v0.2.0"  # If you are using GitHub's built-in themes
+# remote_theme: "pages-themes/minima@v0.2.0"  # If you are using GitHub's built-in themes
 
 # Social and SEO settings (optional)
 social_links:
