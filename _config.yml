@@ -1,15 +1,45 @@
+# Site Settings
 title: My Jekyll Site
-description: A simple Jekyll site.
-url: "https://lucasischow.github.io"
-# baseurl: "lucasischow.github.io"
-theme: minima
-markdown: kramdown
-plugins:
-  - jekyll-feed
+description: A simple Jekyll site deployed to GitHub Pages.
+url: "https://lucasischow.github.io"  # Replace with your GitHub Pages URL
+baseurl: "lucasischow.github.io"  # Use "/repository-name" for project pages
 
-# Include and exclude files
-include:
-  - _next
+# Theme (optional, you can use other themes or none)
+theme: minima
+
+# Markdown Processor
+markdown: kramdown
+
+# Exclude files and folders
 exclude:
   - node_modules
   - vendor
+  - Gemfile
+  - Gemfile.lock
+  - .git
+  - .github
+
+# Include the _next directory (necessary for Next.js static files)
+include:
+  - _next
+
+# Plugins (optional, add plugins like jekyll-feed for RSS or jekyll-sitemap for SEO)
+plugins:
+  # - jekyll-feed
+  # - jekyll-sitemap
+
+# Pagination (optional)
+# paginate: 5
+# paginate_path: "/page:num"
+
+# Keep files/folders that shouldn't be processed by Jekyll (like static assets)
+keep_files:
+  - _next  # Ensures _next folder is copied as-is
+
+# GitHub Pages settings (optional)
+remote_theme: "pages-themes/minima@v0.2.0"  # If you are using GitHub's built-in themes
+
+# Social and SEO settings (optional)
+social_links:
+  # twitter: https://twitter.com/username
+  # github: https://github.com/username
