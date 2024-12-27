@@ -1,1 +1,15 @@
-include: ./_next
+title: My Jekyll Site
+description: A simple Jekyll site.
+url: "https://lucasischow.github.io"
+# baseurl: "lucasischow.github.io"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Include and exclude files
+include:
+  - _next
+exclude:
+  - node_modules
+  - vendor
