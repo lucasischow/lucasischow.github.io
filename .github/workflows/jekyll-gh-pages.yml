@@ -20,9 +20,6 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
-include:
-  - _next
   
 jobs:
   # Build job
@@ -36,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./_next
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
