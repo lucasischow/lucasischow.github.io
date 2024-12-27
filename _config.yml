@@ -2,7 +2,7 @@
 title: My Jekyll Site
 description: A simple Jekyll site deployed to GitHub Pages.
 url: "https://lucasischow.github.io"  # Replace with your GitHub Pages URL
-baseurl: ""  # Use "/repository-name" for project pages
+baseurl: "lucasischow.github.io"  # Use "/repository-name" for project pages
 
 # Markdown Processor
 markdown: kramdown
