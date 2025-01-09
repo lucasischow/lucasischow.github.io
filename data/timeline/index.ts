@@ -123,11 +123,11 @@ const data: TimelineNode[] = [
     data: [
       {
         type: "cluster",
-        description: '1',
+        description: 'Miscellaneous plugins and tools',
         list: [
           {
-            link: '',
-            linkText: 'paint tool',
+            link: '/demos/misc/paint-board',
+            linkText: 'paint-board',
           },
           {
             link: '/demos/misc/color-picker',
@@ -165,7 +165,24 @@ const data: TimelineNode[] = [
   {
     year: '2020',
     description: "",
-    data: []
+    data: [
+      {
+        type: 'simple',
+        description: 'Web Audio API Sample',
+        demo: {
+          // linkText: 'audio 3',
+          link: '/demos/misc/web-audio-demo/3'
+        }
+      },
+      {
+        type: 'simple',
+        description: 'Responsible for refactoring projects, conducting technical research, and managing polyrepos.',
+        demo: {
+          // linkText: 'audio 3',
+          // link: '/demos/misc/web-audio-demo/3'
+        }
+      },
+    ]
   },
   {
     year: '2019',
@@ -208,7 +225,22 @@ const data: TimelineNode[] = [
             data: "imgs/2019-01.gif"
           }
         ]
-      }
+      },
+      {
+        type: "simple",
+        description: "Built and published react table plugin to NPM",
+        demo: {
+          link: 'https://www.npmjs.com/package/rc-table-s',
+          linkText: 'NPM Link',
+          openInNewTab: true
+        },
+        assets: [
+          {
+            type: 'img',
+            data: 'imgs/2019-02.png'
+          }
+        ]
+      },
     ]
   },
   {
@@ -393,7 +425,7 @@ const data: TimelineNode[] = [
       },
       {
         type: "simple",
-        description: "An imitated page for my first Frontend developer job interview",
+        description: "A mock webpage for my first frontend developer job interview",
         demo: {
           stacks: "HTML, CSS, JavaScript, JQuery",
           media: "l",
