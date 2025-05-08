@@ -5,6 +5,16 @@ const data: TimelineNode[] = [
     data: [
       {
         type: "simple",
+        description: "React UI Library",
+        demo: {
+          openInNewTab: true,
+          linkText: 'Site',
+          link: 'https://lite-u.github.io/',
+          stacks: 'React, TypeScript'
+        }
+      },
+      {
+        type: "simple",
         description: "Web App for create a design",
         demo: {
           openInNewTab: true,
