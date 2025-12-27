@@ -5,6 +5,10 @@ const data: TimelineNode[] = [
     data: [
       {
         type: "simple",
+        description: "Started learning Japanese"
+      },
+      {
+        type: "simple",
         description: "React UI Library",
         demo: {
           openInNewTab: true,
