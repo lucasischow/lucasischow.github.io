@@ -1,5 +1,21 @@
 const data: TimelineNode[] = [
   {
+    year: "2026",
+    description: "",
+    data: [
+      {
+        type: "simple",
+        description: "Composable canvas runtime monorepo for multi-editor products",
+        demo: {
+          openInNewTab: true,
+          linkText: 'Site',
+          link: 'https://github.com/17x/venus',
+          stacks: 'React 19, TypeScript, Vite, Tailwind CSS 4, Web Worker, SharedArrayBuffer, CanvasKit (Skia/WASM), FlatBuffers (schema), pnpm Workspace Monorepo, ESLint'
+        }
+      }
+    ]
+  },
+  {
     year: "2025",
     description: "",
     data: [
