@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Web Audio API</title>
+	<link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+
+<h2>AudioBuffer, AudioBufferSourceNode, GainNode, AudioContext.</h2>
+<p>Two operation buttons will be shown after all 3 audio datum has been decoded successfully</p>
+<div id="canvasWrap">
+	<canvas id="cv1"></canvas>
+</div>
+<div class="audioContextControl">
+	<h3>Audio Context Control</h3>
+	<span>Status: <b>stopped</b></span>
+	<button type="button" class="btn-1" id="btnPlay">Play</button>
+	<button type="button" class="btn-1" id="btnPause">Pause</button>
+	<button type="button" class="btn-1" id="btnStop">Stop</button>
+</div>
+<div id="managePanel">
+	<div id="fileListWrap">
+		<div id="fileList"></div>
+<!--		<div id="fileList-add">➕</div>-->
+	</div>
+</div>
+<script src="../common.js"></script>
+<script src="./Components/AudioPlayer.js"></script>
+<script src="./Components/RectItem.js"></script>
+<script src="./Components/MediaItem.js"></script>
+<script src="./Components/FileList.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
