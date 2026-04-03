@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node / frontend dependencies
+**/node_modules/
+
+# Build artifacts
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/.output/
+**/.turbo/
+**/coverage/
+
+# Cache files
+**/.cache/
+**/.parcel-cache/
+**/.sass-cache/
+**/.eslintcache
+**/*.tsbuildinfo
